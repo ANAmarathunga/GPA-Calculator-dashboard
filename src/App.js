@@ -187,7 +187,7 @@ function App() {
         }
       `}</style>
       
-      <div className="bg-overlay" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(15, 23, 42, 0.45)', backdropFilter: 'blur(8px)', zIndex: 1 }}></div>
+      <div className="bg-overlay" style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(15, 23, 42, 0.45)', backdropFilter: 'blur(1px)', zIndex: 1 }}></div>
 
       <div className="main-card" style={{ maxWidth: '750px', margin: '0 auto', position: 'relative', zIndex: 2, fontFamily: '"Segoe UI", Arial, sans-serif' }}>
         
